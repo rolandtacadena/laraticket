@@ -64,8 +64,6 @@ Route::group(['middleware' => 'web'], function () {
 
     });
 
-    Route::get('/home', 'HomeController@index');
-
     Route::get('/', [
         'as' => 'all_tickets',
         'uses' => 'TicketsController@all'
@@ -107,23 +105,6 @@ Route::group(['middleware' => 'web'], function () {
         'as' => 'tickets_by_priority',
         'uses' => 'TicketsController@tickets_by_priority'
     ])->where('priority', '[A-Za-z]+');
-
-// Authentication routes
-    Route::get('auth/login', [
-        'as' => 'login_path',
-        'uses' => 'Auth\AuthController@getLogin'
-    ]);
-    Route::post('auth/login', 'Auth\AuthController@postLogin');
-    Route::get('auth/logout', [
-        'as' => 'logout_path',
-        'uses' => 'Auth\AuthController@getLogout'
-    ]);
-
-// Registration routes
-    Route::get('auth/register', [
-        'as' => 'register_path',
-        'uses' => 'Auth\AuthController@getRegister'
-    ]);
 
     Route::post('auth/register', 'Auth\AuthController@postRegister');
 });

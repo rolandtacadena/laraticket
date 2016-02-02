@@ -11,9 +11,9 @@
         <ul class="right">
             <li class="divider"></li>
             @if (Auth::guest())
-                <li>{!! link_to_route('register_path', 'Register') !!}</li>
+                <li><a href="{{ url('/register') }}">Register</a></li>
                 <li class="divider"></li>
-                <li>{!! link_to_route('login_path', 'Login') !!}</li>
+                <li><a href="{{ url('/login') }}">Login</a></li>
                 <li class="divider"></li>
             @else
             @if(Auth::user()->is_admin())
@@ -31,7 +31,7 @@
                     </ul>
                 </li>
                 <li class="divider"></li>
-                <li>{!! link_to_route('logout_path', 'Logout') !!}</li>
+                <li><a href="{{ url('/logout') }}">Logout</a></li>
                 <li class="divider"></li>
             @endif
         </ul>
