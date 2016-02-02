@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92499808-8918-4986-9ee6-1c9115a37ba1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user/profile-pics/default-img-profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/foundation-icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/foundation-icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/foundation-icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/bg/landing-hero-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/laravel-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/.fontcustom-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2016_02_02_143601_create_backlogs_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2016_02_02_143701_create_tickets_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2016_02_02_154211_create_comments_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Backlog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/BacklogsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/BacklogsTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Comment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/CommentsTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Ticket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Requests/TicketRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/TicketsTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/_filternav.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/_leftnav.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/_nav.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/tickets/admin.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/tickets/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/vendor/fastclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-address-book.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-alert.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-align-center.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-align-justify.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-align-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-align-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-anchor.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-annotate.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-archive.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-arrow-down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-arrow-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-arrow-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-arrow-up.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-arrows-compress.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-arrows-expand.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-arrows-in.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-arrows-out.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-asl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-asterisk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-at-sign.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-background-color.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-battery-empty.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-battery-full.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-battery-half.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-bitcoin-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-bitcoin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-blind.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-bluetooth.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-bold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-book-bookmark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-book.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-bookmark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-braille.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-burst-new.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-burst-sale.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-burst.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-camera.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-check.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-checkbox.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-clipboard-notes.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-clipboard-pencil.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-clipboard.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-clock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-closed-caption.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-cloud.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-comment-minus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-comment-quotes.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-comment-video.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-comment.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-comments.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-compass.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-contrast.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-credit-card.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-crop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-crown.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-css3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-database.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-die-five.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-die-four.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-die-one.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-die-six.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-die-three.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-die-two.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-dislike.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-dollar-bill.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-dollar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-download.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-eject.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-elevator.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-euro.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-eye.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-fast-forward.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-female-symbol.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-female.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-filter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-first-aid.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-flag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-folder-add.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-folder-lock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-folder.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-foot.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-foundation.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-graph-bar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-graph-horizontal.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-graph-pie.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-graph-trend.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-guide-dog.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-hearing-aid.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-heart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-home.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-html5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-indent-less.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-indent-more.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-info.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-italic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-key.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-laptop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-layout.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-lightbulb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-like.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-link.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-list-bullet.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-list-number.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-list-thumbnails.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-list.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-lock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-loop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-magnifying-glass.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-mail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-male-female.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-male-symbol.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-male.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-map.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-marker.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-megaphone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-microphone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-minus-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-minus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-mobile-signal.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-mobile.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-monitor.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-mountains.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-music.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-next.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-no-dogs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-no-smoking.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-add.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-csv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-delete.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-doc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-export-csv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-export-doc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-export-pdf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-export.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-filled.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-multiple.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-pdf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-remove.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page-search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-page.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-paint-bucket.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-paperclip.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-pause.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-paw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-paypal.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-pencil.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-photo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-play-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-play-video.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-play.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-pound.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-power.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-previous.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-price-tag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-pricetag-multiple.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-print.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-prohibited.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-projection-screen.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-puzzle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-quote.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-record.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-refresh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-results-demographics.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-results.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-rewind-ten.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-rewind.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-rss.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-safety-cone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-save.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-share.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-sheriff-badge.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-shield.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-shopping-bag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-shopping-cart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-shuffle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-skull.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-500px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-adobe.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-amazon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-android.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-apple.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-behance.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-bing.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-blogger.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-delicious.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-designer-news.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-deviant-art.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-digg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-dribbble.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-drive.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-dropbox.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-evernote.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-facebook.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-flickr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-forrst.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-foursquare.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-game-center.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-github.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-google-plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-hacker-news.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-hi5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-instagram.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-joomla.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-lastfm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-linkedin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-medium.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-myspace.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-orkut.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-path.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-picasa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-pinterest.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-rdio.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-reddit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-skillshare.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-skype.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-smashing-mag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-snapchat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-spotify.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-squidoo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-stack-overflow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-steam.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-stumbleupon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-treehouse.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-tumblr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-twitter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-vimeo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-windows.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-xbox.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-yahoo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-yelp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-youtube.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-zerply.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-social-zurb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-sound.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-star.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-stop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-strikethrough.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-subscript.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-superscript.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-tablet-landscape.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-tablet-portrait.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-target-two.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-target.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-telephone-accessible.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-telephone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-text-color.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-thumbnails.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-ticket.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-torso-business.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-torso-female.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-torso.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-torsos-all-female.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-torsos-all.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-torsos-female-male.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-torsos-male-female.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-torsos.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-trash.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-trees.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-trophy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-underline.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-universal-access.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-unlink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-unlock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-upload-cloud.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-upload.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-usb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-video.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-volume-none.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-volume-strike.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-volume.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-web.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-wheelchair.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-widget.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-wrench.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-x-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-x.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-yen.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-zoom-in.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/svgs/fi-zoom-out.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/partials/flash.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/tickets/form.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/foundation-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/foundation-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.abide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.clearing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.equalizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.interchange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.joyride.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.magellan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.offcanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.orbit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.reveal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/foundation/foundation.topbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/tickets/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/vendor/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/vendor/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/errors/list.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/vendor/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/emails/password.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/vendor/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/foundation-icons/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/profile.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/tickets/show.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uprov2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+    </list>
+    <ignored path="uprov2.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="uprov2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="_filternav.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/_filternav.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="756">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/tickets/admin.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/tickets/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="729">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/errors/list.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-57.0" vertical-offset="648" max-vertical-offset="3051">
+              <caret line="81" column="50" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.8727274" vertical-offset="324" max-vertical-offset="3483">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Authenticate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="9.0" vertical-offset="243" max-vertical-offset="945">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EncryptCookies.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="621">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedirectIfAuthenticated.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="837">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerifyCsrfToken.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="621">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_02_143601_create_backlogs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_02_143618_create_comments_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_02_143701_create_tickets_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/BacklogsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CommentsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/TicketsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TicketsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/TicketRequest.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Backlog.php" />
+        <option value="$PROJECT_DIR$/app/Comment.php" />
+        <option value="$PROJECT_DIR$/app/Ticket.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_02_154211_create_comments_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/tickets/index.blade.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tickets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="errors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Policies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Listeners" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uprov2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file://C:/xampp/htdocs/uprov2/app/Http/routes.php" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92499808-8918-4986-9ee6-1c9115a37ba1" name="Default" comment="" />
+      <created>1454423563390</created>
+      <option name="number" value="Default" />
+      <updated>1454423563390</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="1.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_02_143701_create_tickets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="351" max-vertical-offset="1404">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/BacklogsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.0" vertical-offset="27" max-vertical-offset="621">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#7#23#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CommentsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.0" vertical-offset="27" max-vertical-offset="621">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#7#23#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/TicketsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.0" vertical-offset="27" max-vertical-offset="621">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="e#7#22#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0" vertical-offset="243" max-vertical-offset="918">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BacklogsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.642858" vertical-offset="596" max-vertical-offset="1242">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TicketsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.518518" vertical-offset="4846" max-vertical-offset="5508">
+          <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.0" vertical-offset="891" max-vertical-offset="1566">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/TicketRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-36.0" vertical-offset="0" max-vertical-offset="1134">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="1755">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#33#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="28.0" vertical-offset="756" max-vertical-offset="1323">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.0" vertical-offset="135" max-vertical-offset="1026">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Backlog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.0" vertical-offset="351" max-vertical-offset="1026">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Ticket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.0" vertical-offset="2511" max-vertical-offset="3186">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2857143" vertical-offset="0" max-vertical-offset="567">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.0" vertical-offset="378" max-vertical-offset="1134">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="1593">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="783">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.0" vertical-offset="108" max-vertical-offset="1107">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-59.0" vertical-offset="0" max-vertical-offset="1890">
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+          <folding>
+            <element signature="e#7#394#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0" vertical-offset="270" max-vertical-offset="999">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="42.0" vertical-offset="1296" max-vertical-offset="1863">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_02_143601_create_backlogs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0" vertical-offset="216" max-vertical-offset="999">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.0" vertical-offset="675" max-vertical-offset="1404">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_02_154211_create_comments_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.0" vertical-offset="243" max-vertical-offset="1296">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="5130" max-vertical-offset="5832">
+          <caret line="205" column="52" selection-start-line="205" selection-start-column="52" selection-end-line="205" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tickets/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="905" max-vertical-offset="1890">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.0" vertical-offset="405" max-vertical-offset="1944">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2376">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_filternav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tickets/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tickets/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/errors/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.0" vertical-offset="243" max-vertical-offset="945">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="837">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="621">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-57.0" vertical-offset="648" max-vertical-offset="3051">
+          <caret line="81" column="50" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8727274" vertical-offset="324" max-vertical-offset="3483">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
