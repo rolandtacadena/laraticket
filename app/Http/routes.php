@@ -2,21 +2,6 @@
 
 /*
 |--------------------------------------------------------------------------
-| Routes File
-|--------------------------------------------------------------------------
-|
-| Here is where you will register all of the routes in an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-/*
-|--------------------------------------------------------------------------
 | Application Routes
 |--------------------------------------------------------------------------
 |
@@ -27,86 +12,69 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => 'web'], function () {
+
+    // authentication routes
     Route::auth();
 
     Route::group(['middleware' => ['auth']], function()
     {
-        Route::get('user/profile', [
-            'as' => 'show_profile',
-            'uses' => 'UsersController@show_profile'
-        ]);
+        Route::get('user/profile', 'UsersController@show_profile')
+            ->name('show_profile');
 
         Route::post('user/profile/upload-photo', 'UsersController@upload_profile_photo');
 
-        Route::get('/user/settings/', [
-            'as' => 'user_settings',
-            'uses' => 'UsersController@settings'
-        ]);
+        Route::get('/user/settings/', 'UsersController@settings')
+            ->name('user_settings');
 
-        Route::get('/ticket/create', [
-            'as' => 'create_ticket',
-            'uses' => 'TicketsController@create'
-        ]);
+        Route::get('/ticket/create', 'TicketsController@create')
+            ->name('create_ticket');
 
-        Route::patch('/ticket/{id}', 'TicketsController@update')
+        Route::patch('/ticket/{ticket}', 'TicketsController@update')
             ->where('id', '[0-9]+');
 
-        Route::post('/ticket/{id}', 'CommentsController@store')
+        Route::post('/ticket/{ticket}', 'CommentsController@store')
             ->where('id', '[0-9]+');
 
-        Route::get('/admin', [
-            'as' => 'admin_area',
-            'uses' => 'UsersController@admin'
-        ]);
+        Route::get('/admin', 'UsersController@admin')
+            ->name('admin_area');
 
-        Route::delete('/ticket/{id}', 'TicketsController@destroy')
+        Route::delete('/ticket/{ticket}', 'TicketsController@destroy')
             ->where('id', '[0-9]+');
 
     });
 
-    Route::get('/', [
-        'as' => 'all_tickets',
-        'uses' => 'TicketsController@all'
-    ]);
+    Route::get('/', 'TicketsController@all')
+        ->name('all_tickets');
 
-    Route::get('/tickets', [
-        'as' => 'all_tickets',
-        'uses' => 'TicketsController@all'
-    ]);
+    Route::get('/tickets', 'TicketsController@all')
+        ->name('all_tickets');
 
     Route::post('/tickets', 'TicketsController@store');
 
-    Route::get('/ticket/{id}', [
-        'as' => 'show_ticket',
-        'uses' => 'TicketsController@show'
-    ])->where('id', '[0-9]+');
+    Route::get('/ticket/{ticket}', 'TicketsController@show')
+        ->name('show_ticket')
+        ->where('id', '[0-9]+');
 
-    Route::get('/tickets/user/{id}', [
-        'as' => 'tickets_by_user',
-        'uses' => 'TicketsController@tickets_by_user'
-    ])->where('id', '[0-9]+');
+    Route::get('/tickets/user/{user}', 'TicketsController@tickets_by_user')
+        ->name('tickets_by_user')
+        ->where('id', '[0-9]+');
 
-    Route::get('/tickets/backlog/{id}', [
-        'as' => 'tickets_by_backlog',
-        'uses' => 'TicketsController@tickets_by_backlog'
-    ])->where('id', '[0-9]+');
+    Route::get('/tickets/backlog/{backlog}', 'TicketsController@tickets_by_backlog')
+        ->name('tickets_by_backlog')
+        ->where('id', '[0-9]+');
 
-    Route::get('/tickets/status/{status}', [
-        'as' => 'tickets_by_status',
-        'uses' => 'TicketsController@tickets_by_status'
-    ])->where('status', '[A-Za-z]+');
+    Route::get('/tickets/status/{status}', 'TicketsController@tickets_by_status')
+        ->name('tickets_by_status')
+        ->where('status', '[A-Za-z]+');
 
-    Route::get('/tickets/type/{type}', [
-        'as' => 'tickets_by_type',
-        'uses' => 'TicketsController@tickets_by_type'
-    ])->where('type', '[A-Za-z]+');
+    Route::get('/tickets/type/{type}', 'TicketsController@tickets_by_type')
+        ->name('tickets_by_type')
+        ->where('type', '[A-Za-z]+');
 
-    Route::get('/tickets/priority/{priority}', [
-        'as' => 'tickets_by_priority',
-        'uses' => 'TicketsController@tickets_by_priority'
-    ])->where('priority', '[A-Za-z]+');
+    Route::get('/tickets/priority/{priority}', 'TicketsController@tickets_by_priority')
+        ->name('tickets_by_priority')
+        ->where('priority', '[A-Za-z]+');
 
-    Route::post('auth/register', 'Auth\AuthController@postRegister');
 });
 
 
