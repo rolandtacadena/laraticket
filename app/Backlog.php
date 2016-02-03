@@ -18,7 +18,10 @@ class Backlog extends Model
      *
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'name',
+        'description'
+    ];
 
     /**
      * Returns Tickets for the Backlog - Polymorphic Relationship
