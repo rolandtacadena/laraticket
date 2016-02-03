@@ -28,6 +28,12 @@ class UsersController extends Controller
 
     }
 
+    /**
+     * Upload user photo
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function upload_profile_photo(Request $request)
     {
         $this->validate($request, [
@@ -48,5 +54,10 @@ class UsersController extends Controller
         return redirect('/user/profile')->with(
             'flash_message', 'You have successfully added a photo!'
         );
+    }
+
+    public function admin()
+    {
+
     }
 }
