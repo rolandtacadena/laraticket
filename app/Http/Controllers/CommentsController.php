@@ -12,21 +12,21 @@ use Illuminate\Support\Facades\Auth;
 
 class CommentsController extends Controller
 {
+
     /**
      * Store a Comment for a given Ticket id
      *
-     * @param $id
+     * @param Ticket $ticket
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function store($id, Request $request)
+    public function store(Ticket $ticket, Request $request)
     {
         // validate the comment first
         $this->validate($request, [
             'comment' => 'required'
         ]);
 
-        $ticket = Ticket::findOrFail($id);
         $comment = new Comment();
         $comment->comment = $request->get('comment');
         $comment->user()->associate(Auth::user());

@@ -26,7 +26,7 @@ class TicketsController extends Controller
     /**
      * Displays all Tickets
      *
-     * @return View
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function all()
     {
@@ -38,53 +38,38 @@ class TicketsController extends Controller
     /**
      * Displays the Tickets by the given User id
      *
-     * @param $id
-     * @return View
+     * @param User $user
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function tickets_by_user($id)
+    public function tickets_by_user(User $user)
     {
-        $tickets = $this->ticket->whereUserId($id)
+        $tickets = $this->ticket->whereUserId($user->id)
             ->orderBy('id', 'asc')
             ->paginate(10);
-        $header = 'Tickets by ' . User::findOrFail($id)->name;
+        $header = 'Tickets by ' . User::findOrFail($user->id)->name;
         return view('tickets.index', compact('tickets', 'header'));
     }
 
     /**
      * Show a Ticket by its id
      *
-     * @param $id
-     * @return View
+     * @param Ticket $ticket
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function show($id)
+    public function show(Ticket $ticket)
     {
-        $ticket = $this->ticket->findOrFail($id);
         return view('tickets.show', compact('ticket', 'comments_for_ticket'));
     }
 
     /**
-     * Load a form to edit a given Ticket id
-     *
-     * @param $id
-     * @return View
-     */
-    public function edit($id)
-    {
-        $ticket = $this->ticket->findOrFail($id);
-        return view('tickets.edit', compact('ticket'));
-    }
-
-
-    /**
      * Actual process of updating Ticket
      *
-     * @param $id
+     * @param Ticket $ticket
      * @param Request $request
-     * @return RedirectResponse
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function update($id, Request $request)
+    public function update(Ticket $ticket, Request $request)
     {
-        $ticket = $this->ticket->findOrFail($id);
         $ticket->update($request->all());
         session()->flash('flash_message', 'You have successfully updated the ticket');
         return redirect()->route('show_ticket', [$ticket]);
@@ -93,15 +78,15 @@ class TicketsController extends Controller
     /**
      * Returns the Tickets for a given Backlog id
      *
-     * @param $id
-     * @return View
+     * @param Backlog $backlog
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function tickets_by_backlog($id)
+    public function tickets_by_backlog(Backlog $backlog)
     {
-        $tickets = $this->ticket->whereBacklogId($id)
+        $tickets = $this->ticket->whereBacklogId($backlog->id)
             ->orderBy('id', 'asc')
             ->paginate(10);
-        $header = 'Tickets for Backlog ' . Backlog::findOrFail($id)->name;
+        $header = 'Tickets for Backlog ' . Backlog::findOrFail($backlog->id)->name;
         return view('tickets.index', compact('tickets', 'header'));
     }
 
@@ -109,7 +94,7 @@ class TicketsController extends Controller
      * Returns all the Tickets whether they are open/close
      *
      * @param $status
-     * @return View
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function tickets_by_status($status)
     {
@@ -124,7 +109,7 @@ class TicketsController extends Controller
      * Tickets for a given type
      *
      * @param $type
-     * @return View
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function tickets_by_type($type)
     {
@@ -136,10 +121,10 @@ class TicketsController extends Controller
     }
 
     /**
-     * Tickets for a given prio
+     * Tickets for a given priority
      *
      * @param $priority
-     * @return View
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function tickets_by_priority($priority)
     {
@@ -153,7 +138,7 @@ class TicketsController extends Controller
     /**
      * Loads a form to create Ticket
      *
-     * @return View
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\View\View
      */
     public function create()
     {
@@ -168,7 +153,7 @@ class TicketsController extends Controller
      * Actual process of storing Ticket
      *
      * @param TicketRequest $request
-     * @return Redirector
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function store(TicketRequest $request)
     {
@@ -184,12 +169,12 @@ class TicketsController extends Controller
     /**
      * Delete Ticket
      *
-     * @param $id
-     * @return RedirectResponse
+     * @param Ticket $ticket
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Exception
      */
-    public function destroy($id)
+    public function destroy(Ticket $ticket)
     {
-        $ticket = $this->ticket->findOrFail($id);
         $this->authorize('delete-post', $ticket);
         $ticket->delete();
         return redirect('/tickets')->with('flash_message', 'You have successfully deleted the ticket');
