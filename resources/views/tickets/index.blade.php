@@ -17,7 +17,7 @@
 
             @if(count($tickets) > 0)
                 <h4 class="subheader">{{ $header }} 
-                    <b style="font-size: 20px;">({{ count($tickets) }})</b>
+                    <b style="font-size: 20px;">({{ $all_tickets_count }})</b>
                 </h4>
                 <table id="ticket-list">
                     <thead>
