@@ -13,15 +13,15 @@
 
 Route::group(['middleware' => 'web'], function () {
 
-    // authentication routes
+    // create authentication routes
     Route::auth();
 
     Route::group(['middleware' => ['auth']], function()
     {
-        Route::get('user/profile', 'UsersController@show_profile')
+        Route::get('/user/profile', 'UsersController@show_profile')
             ->name('show_profile');
 
-        Route::post('user/profile/upload-photo', 'UsersController@upload_profile_photo');
+        Route::post('/user/profile/upload-photo', 'UsersController@upload_profile_photo');
 
         Route::get('/user/settings/', 'UsersController@settings')
             ->name('user_settings');
