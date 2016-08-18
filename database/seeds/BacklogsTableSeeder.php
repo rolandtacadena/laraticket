@@ -2,6 +2,7 @@
 
 use App\Backlog;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class BacklogsTableSeeder extends Seeder
 {
@@ -12,6 +13,12 @@ class BacklogsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Backlog::class, 10)->create();
+        //factory(Backlog::class, 10)->create();
+        for($i = 1; $i <= 10; $i++) {
+            DB::table('backlogs')->insert([
+                'name' => str_random(15),
+                'description' => str_random(40),
+            ]);
+        }
     }
 }
