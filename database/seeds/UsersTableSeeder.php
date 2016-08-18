@@ -14,12 +14,14 @@ class UsersTableSeeder extends Seeder
         DB::table('users')->delete();
         $users = array(
             array(
+                'id'        => 1,
                 'name'      => 'admin',
-                'role'   => 'admin',
-                'email'      => 'admin@admin.com',
-                'password'   => Hash::make('admin'),
+                'role'      => 'admin',
+                'email'     => 'admin@admin.com',
+                'password'  => Hash::make('admin'),
             ),
             array(
+                'id'        => 2,
                 'name'      => 'user',
                 'role'   => 'developer',
                 'email'      => 'user@user.com',
