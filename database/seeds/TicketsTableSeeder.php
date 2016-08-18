@@ -16,6 +16,7 @@ class TicketsTableSeeder extends Seeder
         //factory(Ticket::class, 10)->create();
         for($i = 1; $i <= 10; $i++) {
             DB::table('tickets')->insert([
+                'id' => $i,
                 'user_id' => 1,
                 'backlog_id' => 1,
                 'title' => str_random(15),
